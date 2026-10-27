@@ -1,0 +1,11 @@
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 自检截图目录（不入库）
+**/_shots/
+
+# 依赖（本项目无构建依赖，预留）
+node_modules/

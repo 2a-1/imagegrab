@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>图提取 ImageGrab - 图片预览与下载</title>
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="g-header">
+    <div class="g-brand">
+      <span class="g-logo">图提取</span>
+      <span class="g-sub">ImageGrab · 已提取商品图片</span>
+    </div>
+    <div class="g-toolbar">
+      <button class="g-btn" id="selectAll">全选</button>
+      <button class="g-btn" id="invert">反选</button>
+      <span class="g-count">已选 <b id="picked">0</b> / <span id="total">0</span> 张</span>
+      <button class="g-btn primary" id="downloadBtn">下载选中（PNG）</button>
+    </div>
+  </header>
+
+  <main class="g-main">
+    <div class="g-status" id="status">正在读取图片列表…</div>
+    <div class="g-grid" id="grid"></div>
+  </main>
+
+  <div class="g-toast" id="toast"></div>
+  <script src="gallery.js"></script>
+</body>
+</html>
